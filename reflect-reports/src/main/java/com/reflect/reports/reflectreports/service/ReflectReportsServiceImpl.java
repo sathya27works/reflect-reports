@@ -17,8 +17,8 @@ public class ReflectReportsServiceImpl implements ReflectReportsService {
 	
 	@Override
 	public List<UserQuizDetails> downloadReport(){
-		List<UserQuizDetails> userQuizDetails = new ArrayList<UserQuizDetails>();
-		userQuizDetails = reflectReportsDAOImpl.downloadReport();
-		return userQuizDetails;
+		List<UserQuizDetails> userQuizDetailsList = new ArrayList<UserQuizDetails>();
+		userQuizDetailsList = reflectReportsDAOImpl.downloadReport();
+		return userQuizDetailsList;
 	}
 }

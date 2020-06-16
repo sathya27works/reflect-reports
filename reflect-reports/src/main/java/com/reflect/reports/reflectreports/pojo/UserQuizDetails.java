@@ -14,7 +14,7 @@ public class UserQuizDetails {
 	private String userQuizId;
 	private int questionNo;
 	private String question;
-	private boolean selectedAnswer;
+	private String selectedAnswer;
 	private int userScore;
 	private String userName;
 	
